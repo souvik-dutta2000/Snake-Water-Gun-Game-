@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Water Gun Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Snake Water Gun Game</h1>
+    <p>Click on an image to play</p>
+    <div class="choices">
+        <img src="img/snake.png" alt="Snake" onclick="playGame('snake')">
+        <img src="img/water.png" alt="Water" onclick="playGame('water')">
+        <img src="img/gun.png" alt="Gun" onclick="playGame('gun')">
+    </div>
+    <div class="result-container">
+        <p id="result">Result will appear here</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
